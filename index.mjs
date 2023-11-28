@@ -36,11 +36,11 @@ async function main() {
     } else {
       throw err;
     }
-
-    console.log('Done. Have fun!');
-    console.log('Be sure to check out the documentation:');
-    console.log('  https://n2d4.github.io/frontend-starter/');
   }
+
+  console.log('Done. Have fun!');
+  console.log('Be sure to check out the documentation:');
+  console.log('  https://n2d4.github.io/frontend-starter/');
 }
 main();
 

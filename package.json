@@ -1,6 +1,6 @@
 {
   "name": "@n2d4/create-frontend-starter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Init script for github.com/N2D4/frontend-starter",
   "main": "index.mjs",
   "bin": "./index.mjs",
