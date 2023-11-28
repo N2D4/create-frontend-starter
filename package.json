@@ -1,0 +1,29 @@
+{
+  "name": "@n2d4/create-frontend-starter",
+  "version": "1.0.2",
+  "description": "Init script for github.com/N2D4/frontend-starter",
+  "main": "index.mjs",
+  "bin": "./index.mjs",
+  "scripts": {
+    "create": "node index.mjs",
+    "create-dev": "NODE_ENV=development npm run create"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N2D4/create-frontend-starter.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/N2D4/create-frontend-starter/issues"
+  },
+  "homepage": "https://github.com/N2D4/create-frontend-starter#readme",
+  "dependencies": {
+    "degit": "^2.8.4",
+    "inquirer": "^9.2.12",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/degit": "^2.8.6",
+    "@types/inquirer": "^9.0.7"
+  }
+}
